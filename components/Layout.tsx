@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import '../styles/globals.css'
 export default function Layout({children}:{children:React.ReactNode}){
   const { locale, asPath } = useRouter(); const other = locale==='zh'?'en':'zh';
   return (<div className="container">
