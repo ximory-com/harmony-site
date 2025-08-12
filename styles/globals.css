@@ -1,18 +1,13 @@
-:root { --brand-blue:#008AE2; --bg:#F4FAFF; --muted:#6B7280;}
-*{box-sizing:border-box} html,body{margin:0;padding:0;font-family:system-ui,-apple-system,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif}
-.container{max-width:1080px;margin:0 auto;padding:24px}
-.header{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
-.nav a{margin-right:16px}
-.badge{display:inline-block;padding:2px 8px;border-radius:999px;background:var(--bg);color:var(--brand-blue);font-size:12px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
-.card{border:1px solid #E6F0FA;border-radius:12px;padding:16px;background:#fff}
-.dim{color:var(--muted);font-size:14px}
-.kicker{color:var(--muted);font-size:14px;margin:8px 0 16px}
-.table{width:100%;border-collapse:collapse}
-.table th,.table td{border:1px solid #E6F0FA;padding:10px;vertical-align:top}
-.table th{background:#008AE2;color:#fff;text-align:center}
-.fullrow{background:#fff}
-.hr{height:2px;background:#E6F0FA;border:0;margin:24px 0}
-.small{font-size:14px;color:#555}
-.footer{margin:48px 0 16px;color:#999;font-size:12px;text-align:center}
-.hero{padding:24px;background:var(--bg);border-radius:12px}
+:root{
+  --brand-blue:#008AE2; --brand-green:#4CAF50;
+  --c-self:#FF6F61; --c-social:#7C4DFF; --c-nature:#4CAF50;
+  --c-energy:#FFD54F; --c-sync:#00BCD4; --c-ego:#9C27B0;
+  --text:#111; --muted:#555; --bg:#fff;
+}
+html,body{
+  margin:0; padding:0;
+  background:var(--bg); color:var(--text);
+  font-family:"Noto Sans SC", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+a{color:var(--brand-blue); text-decoration:none}
+hr{border:none;border-top:1px solid rgba(0,0,0,.08); margin:24px 0}
